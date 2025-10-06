@@ -1,0 +1,101 @@
+schedule.html
+
+<!doctype html> <html lang="en"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>Schedule of Meetings | East County Alano Club</title> <meta name="description" content="Schedule of meetings for the East County Alano Club in Gresham, Oregon."> <meta name="robots" content="index,follow"> <style> :root { --bg: #0f172a; --fg: #e5e7eb; --accent: #22c55e; --muted: #94a3b8; --card: #111827; --line: #1f2937; } * { box-sizing: border-box; } body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"; background: var(--bg); color: var(--fg); line-height: 1.6; } a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; } .skip-link { position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden; } .skip-link:focus { position: static; width: auto; height: auto; padding: 0.5rem 1rem; background: #111; } header { padding: 1rem; border-bottom: 1px solid var(--line); background: #0b1220; } .wrap { max-width: 1000px; margin: 0 auto; padding: 0 1rem; } .brand { display: flex; align-items: center; gap: 0.75rem; } .brand h1 { margin: 0; font-size: 1.25rem; letter-spacing: 0.5px; } .brand small { color: var(--muted); } main { padding: 2rem 0; } .card { background: var(--card); border: 1px solid var(--line); border-radius: 0.75rem; padding: 1.25rem; } h2 { margin-top: 0; } .actions { display: flex; gap: 1rem; margin-bottom: 1rem; flex-wrap: wrap; } .muted { color: var(--muted); }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+thead th {
+  text-align: left;
+  background: #0b1220;
+  color: var(--fg);
+  border-bottom: 1px solid var(--line);
+  padding: 0.75rem;
+  font-weight: 600;
+}
+tbody td {
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+tbody tr:last-child td { border-bottom: 0; }
+.day, .time { white-space: nowrap; width: 1%; }
+.name { font-weight: 600; }
+.note { color: var(--muted); font-size: 0.95rem; }
+
+footer {
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  padding: 1.25rem 0;
+  margin-top: 2rem;
+}
+</style> </head> <body> <a class="skip-link" href="#main">Skip to content</a> <header> <div class="wrap brand"> <div aria-hidden="true">🤝</div> <div> <h1>East County Alano Club</h1> <small>Gresham, Oregon</small> </div> </div> </header> <main id="main" class="wrap"> <section class="card"> <div class="actions"> <a href="index.html">← Back to Home</a> <span class="muted">Open 365 days a year</span> </div>
+  <h2>Schedule of Meetings</h2>
+  <p class="muted">
+    For questions, email <a href="mailto:eastcountyalanoclub@gmail.com">eastcountyalanoclub@gmail.com</a>.
+  </p>
+
+  <table aria-describedby="schedule-note">
+    <thead>
+      <tr>
+        <th scope="col" class="day">Day</th>
+        <th scope="col" class="time">Time</th>
+        <th scope="col">Meeting</th>
+        <th scope="col">Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Monday -->
+      <tr><td class="day">Monday</td><td class="time">12:00 PM</td><td class="name">Came To Believe</td><td class="note"></td></tr>
+      <tr><td></td><td class="time">1:30 PM</td><td class="name">Big Book Reading Meeting</td><td class="note"></td></tr>
+      <tr><td></td><td class="time">5:30 PM</td><td class="name">Willingness Will Work</td><td class="note"></td></tr>
+      <tr><td></td><td class="time">7:00 PM</td><td class="name">Monday Night 12x12</td><td class="note"></td></tr>
+      <tr><td></td><td class="time">7:30 PM</td><td class="name">Who Let The Dogs Out Group</td><td class="note"></td></tr>
+
+      <!-- Tuesday -->
+      <tr><td class="day">Tuesday</td><td class="time">12:00 PM</td><td class="name">Came To Believe</td><td class="note"></td></tr>
+      <tr><td></td><td class="time">5:30 PM</td><td class="name">Willingness Will Work</td><td class="note"></td></tr>
+      <tr><td></td><td class="time">7:30 PM</td><td class="name">Wood Village Men's Group</td><td class="note">Men</td></tr>
+
+      <!-- Wednesday -->
+      <tr><td class="day">Wednesday</td><td class="time">9:30 AM</td><td class="name">Greater than Ourselves</td><td class="note"></td></tr>
+      <tr><td></td><td class="time">12:00 PM</td><td class="name">Came To Believe</td><td class="note"></td></tr>
+      <tr><td></td><td class="time">5:30 PM</td><td class="name">Willingness Will Work</td><td class="note"></td></tr>
+      <tr><td></td><td class="time">7:00 PM</td><td class="name">Keys of the Kingdom</td><td class="note">Women</td></tr>
+      <tr><td></td><td class="time">7:30 PM</td><td class="name">Wednesday Night Open</td><td class="note"></td></tr>
+
+      <!-- Thursday -->
+      <tr><td class="day">Thursday</td><td class="time">12:00 PM</td><td class="name">Came To Believe</td><td class="note"></td></tr>
+      <tr><td></td><td class="time">4:00 PM</td><td class="name">The Four O'Clock Meeting</td><td class="note"></td></tr>
+      <tr><td></td><td class="time">5:30 PM</td><td class="name">Willingness Will Work</td><td class="note"></td></tr>
+      <tr><td></td><td class="time">7:30 PM</td><td class="name">ABC</td><td class="note"></td></tr>
+
+      <!-- Friday -->
+      <tr><td class="day">Friday</td><td class="time">12:00 PM</td><td class="name">Came To Believe</td><td class="note"></td></tr>
+      <tr><td></td><td class="time">5:30 PM</td><td class="name">Willingness Will Work</td><td class="note"></td></tr>
+      <tr><td></td><td class="time">7:30 PM</td><td class="name">Friday Night Live</td><td class="note"></td></tr>
+      <tr><td></td><td class="time">9:00 PM</td><td class="name">Generation Zober AF</td><td class="note">Young people</td></tr>
+
+      <!-- Saturday -->
+      <tr><td class="day">Saturday</td><td class="time">9:30 AM</td><td class="name">Paddle Your Own Canoe</td><td class="note"></td></tr>
+      <tr><td></td><td class="time">12:00 PM</td><td class="name">Came To Believe</td><td class="note"></td></tr>
+      <tr><td></td><td class="time">5:30 PM</td><td class="name">Willingness Will Work</td><td class="note"></td></tr>
+      <tr><td></td><td class="time">8:00 PM</td><td class="name">Celebration Saturday</td><td class="note"></td></tr>
+
+      <!-- Sunday -->
+      <tr><td class="day">Sunday</td><td class="time">9:30 AM</td><td class="name">Red Eye Special</td><td class="note"></td></tr>
+      <tr><td></td><td class="time">12:00 PM</td><td class="name">Came To Believe</td><td class="note"></td></tr>
+      <tr><td></td><td class="time">5:30 PM</td><td class="name">Willingness Will Work</td><td class="note"></td></tr>
+      <tr><td></td><td class="time">7:30 PM</td><td class="name">Sunday Night Open</td><td class="note"></td></tr>
+    </tbody>
+  </table>
+
+  <p id="schedule-note" class="muted">
+    Times and formats may change; please verify details at the Club.
+  </p>
+</section>
+</main> <footer> <div class="wrap"> <small>&copy; <span id="year"></span> East County Alano Club. All rights reserved.</small> </div> </footer> <script> document.getElementById('year').textContent = new Date().getFullYear(); </script> </body> </html>
